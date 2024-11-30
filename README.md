@@ -23,7 +23,7 @@ This system utilizes deep learning for **face recognition** by:
 
 ### Step 1: Clone the Repository  
 To clone the repository to your local machine, use the following command:  
-git clone https://github.com/ketakibharati8/Face_Recognition_System_with _Swin_Transformer_and_SVM_Classifier.git
+git clone https://github.com/ketakibharati8/Face_Recognition_System_with_Swin_Transformer_and_SVM_Classifier.git
 
 Then, navigate into the project directory by running:
 
