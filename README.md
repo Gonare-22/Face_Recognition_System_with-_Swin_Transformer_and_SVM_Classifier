@@ -23,7 +23,7 @@ This system utilizes deep learning for **face recognition** by:
 
 ### Step 1: Clone the Repository  
 To clone the repository to your local machine, use the following command:  
-git clone https://github.com/godseritesh/Face_Recognition_System_with _Swin_Transformer_and_SVM_Classifier.git
+git clone https://github.com/ketakibharati8/Face_Recognition_System_with _Swin_Transformer_and_SVM_Classifier.git
 
 Then, navigate into the project directory by running:
 
@@ -50,14 +50,14 @@ pip install -r requirements.txt
 ### Step 4: Run the Application
 To start the real-time face recognition system, run the main script:
 
-python src/recognize.py
+python recognize.py
 
 This will open a webcam window for capturing and recognizing faces. Press 'q' to quit.
 
 ## How to Use the Application
 
 ### Step 1: Capture Training Images
-1. Run the src/capture.py script to start the image capture process.
+1. Run the capture.py script to start the image capture process.
 2. When prompted, enter the person's name.
 3. The system will detect faces in real-time and save 50 images per person.
 4. These images are saved under a directory with the person's name inside the dataset/ folder.
@@ -65,12 +65,12 @@ This will open a webcam window for capturing and recognizing faces. Press 'q' to
 ### Step 2: Train the Classifier
 1. Once you've captured enough images (at least 50 per person), the SVM classifier can be trained by running the following script:
    
-   python src/train.py
+   python train.py
 
 2. This will extract features from the images using the Swin Transformer model and train the SVM classifier to recognize the individuals.
 
 ### Step 3: Real-Time Face Recognition
-1. After training the classifier, run the src/recognize.py script again.
+1. After training the classifier, run the recognize.py script again.
 2. The system will use your webcam to capture faces and display the recognized person's name along with the confidence score.
 3. Press 'q' to exit the recognition system.
 
@@ -102,12 +102,11 @@ This will open a webcam window for capturing and recognizing faces. Press 'q' to
 
 | Sr. No. | Name                | Email                                   | LinkedIn                                  | GitHub                                    |
 |---------|---------------------|-----------------------------------------|-------------------------------------------|-------------------------------------------|
-| 1       | Vaishnav Gonare      | [Email](mailto:vaishnav.gonare@example.com)  | [LinkedIn](https://linkedin.com/in/vaishnav-gonare) | [GitHub](https://github.com/vaishnavgonare) |
-| 2       | Sahil Arjapure       | [Email](mailto:sahil.arjapure@example.com) | [LinkedIn](https://linkedin.com/in/sahil-arjapure) | [GitHub](https://github.com/sahilarjapure)  |
-| 3       | Sudarshan Bhagat     | [Email](mailto:sudarshan.bhagat@example.com) | [LinkedIn](https://linkedin.com/in/sudarshan-bhagat) | [GitHub](https://github.com/sudarshanbhagat) |
-| 4       | Ketaki Bharati       | [Email](mailto:ketaki.bharati@example.com) | [LinkedIn](https://linkedin.com/in/ketaki-bharati) | [GitHub](https://github.com/ketakibharati)  |
-| 5       | Ritesh Godse         | [work.riteshgodse@gmail.com](mailto:work.riteshgodse@gmail.com) | [LinkedIn](https://www.linkedin.com/in/godse-ritesh) | [GitHub](https://github.com/godseritesh)  |
-| 6       | Aniket Dhoke         | [Email](mailto:aniket.dhoke@example.com) | [LinkedIn](https://linkedin.com/in/aniket-dhoke) | [GitHub](https://github.com/aniketdhoke)   |
+| 1       | Ketaki Bharati       | [Email](mailto:ketakibharati8@gmail.com) | [LinkedIn](https://linkedin.com/in/ketaki-bharati) | [GitHub](https://github.com/ketakibharati8)  |
+| 2       | Vaishnav Gonare      | [Email](mailto:gonarevaishnav@gmail.com)  | [LinkedIn](https://in.linkedin.com/in/vaishnav-gonare-44238922a) | [GitHub](https://github.com/Gonare-22) |
+| 3       | Sahil Arjapure       | [Email](mailto:sahil.arjapure@example.com) | [LinkedIn](https://in.linkedin.com/in/sahil-arjapure-592769229) | [GitHub](https://github.com/sahilarjapure)  |
+| 4       | Sudarshan Bhagat     | [Email](mailto:sudarshan.bhagat@example.com) | [LinkedIn](https://www.linkedin.com/in/sudarshan-bhagat-3019962a5) | [GitHub](https://github.com/sudarshanbhagat) |
+
 
 # Citation Request
 
@@ -115,7 +114,7 @@ If you find this project useful or if it contributes to your work, I kindly ask 
 
 For reference, please use the following citation format:
 
-> Gonare, V., Arjapure, S., Bhagat, S., Bharati, K., Dhoke, A &  Godse, R. (2024). *Face Recognition System with Swin Transformer and SVM Classifier*. Retrieved from [https://github.com/godseritesh/Face_Recognition_System_with_Swin_Transformer_and_SVM_Classifier](https://github.com/godseritesh/Face_Recognition_System_with_Swin_Transformer_and_SVM_Classifier)
+> Bharati, K.,Gonare, V., Arjapure, S., Bhagat, S.(2024). *Face Recognition System with Swin Transformer and SVM Classifier*. Retrieved from [https://github.com/ketakibharati8/Face_Recognition_System_with-_Swin_Transformer_and_SVM_Classifier](https://github.com/ketakibharati8/Face_Recognition_System_with-_Swin_Transformer_and_SVM_Classifier)
 
 
 # License
