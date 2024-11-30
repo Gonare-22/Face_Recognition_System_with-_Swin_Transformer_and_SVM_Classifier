@@ -112,6 +112,7 @@ This will open a webcam window for capturing and recognizing faces. Press 'q' to
 
 If you find this project useful or if it contributes to your work, I kindly ask that you cite it as the authors:
 
+
 For reference, please use the following citation format:
 
 > Bharati, K.,Gonare, V., Arjapure, S., Bhagat, S.(2024). *Face Recognition System with Swin Transformer and SVM Classifier*. Retrieved from [https://github.com/ketakibharati8/Face_Recognition_System_with-_Swin_Transformer_and_SVM_Classifier](https://github.com/ketakibharati8/Face_Recognition_System_with-_Swin_Transformer_and_SVM_Classifier)
